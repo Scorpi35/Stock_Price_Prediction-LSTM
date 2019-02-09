@@ -8,14 +8,14 @@ LSTM units are units of Recurrent Neural Network(RNN). Basically, LSTM is used m
 
 #### Root Mean Squared Error
 
-  -> RSME(Cross-Validation) = 4.005
-  -> RSME(Test Dataset) = 14.05
+  RSME(Cross-Validation) = 4.005
+  RSME(Test Dataset) = 14.05
 
 #### Datasets
-
-  -> Dataset from https://www.macrotrends.net/stocks/charts/MSFT/microsoft/stock-price-history
-  -> Training Samples:- 8018
-  -> Test Samples:- 277
+  
+  Dataset from https://www.macrotrends.net/stocks/charts/MSFT/microsoft/stock-price-history
+  Training Samples:- 8018
+  Test Samples:- 277
 
 #### Screenshots
 
