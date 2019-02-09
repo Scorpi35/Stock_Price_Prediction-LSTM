@@ -17,6 +17,11 @@ LSTM units are units of Recurrent Neural Network(RNN). Basically, LSTM is used m
   - Training Samples:- 8018
   - Test Samples:- 277
 
+#### How to run the program?
+  
+  - Open Future_Stock_Prediction
+  - Enter date upto which stock prices have to be predicted.
+
 #### Screenshots
 
 ###### User Input
