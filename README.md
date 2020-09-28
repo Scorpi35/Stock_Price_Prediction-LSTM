@@ -23,11 +23,6 @@ Predicting stock price demands lots of input features. Instead of determing ever
   - RSME(Cross-Validation) = 3.9040832192956225
   - RSME(Test Dataset) = 14.1720933390713
 
-#### How to run the program?
-  
-  - Open Future_Stock_Prediction
-  - Enter date upto which stock prices have to be predicted.
-
 #### Screenshots
 
 ###### User Input
@@ -42,6 +37,11 @@ https://github.com/Scorpi35/StockPrice-LSTM/blob/master/Screenshots/Cross-Valida
 
 ###### 7 days Prediction
 ![alt text](https://github.com/Scorpi35/StockPrice-LSTM/blob/master/Screenshots/7days_Prediction.png)
+
+
+## How to run the program?
+* Open Future_Stock_Prediction.py
+* Enter date upto which stock prices have to be predicted.
 
 
 
