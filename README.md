@@ -8,6 +8,16 @@ Predicting stock price demands lots of input features. Instead of determing ever
 * Training Samples:- 8018
 * Test Samples:- 277
 
+## Programming language and libraries
+* Language:- Python
+* Libraries:- sklearn, keras, numpy, matplot, pandas
+
+## Algorithm
+1. Data collection
+2. Data cleansing
+3. Training neural network with Sequential Model (LSTM)
+4. Prediction of stock prices up to the required date
+
 ## Results
 
   - RSME(Cross-Validation) = 3.9040832192956225
