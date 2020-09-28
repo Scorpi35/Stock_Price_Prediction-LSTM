@@ -30,7 +30,7 @@ Predicting stock price demands lots of input features. Instead of determing ever
   - RSME(Cross-Validation) = 3.9040832192956225
   - RSME(Test Dataset) = 14.1720933390713
 
-#### Screenshots
+## Screenshots
 
 ###### User Input
 ![alt text](https://github.com/Scorpi35/StockPrice-LSTM/blob/master/Screenshots/User_Input.png)
