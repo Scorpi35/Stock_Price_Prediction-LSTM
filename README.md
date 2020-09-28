@@ -1,21 +1,17 @@
 # StockPrice-LSTM
-Stock Price Prediction Using LSTM
 
-## LSTM(Long Short Term Memory)
-LSTM units are units of Recurrent Neural Network(RNN). Basically, LSTM is used maily for time-series prediction.
+## Project Description
+Predicting stock price demands lots of input features. Instead of determing every possible input feature, we can analyze the pattern in which stock price is moving and predict the price. Addressing this very problem, we decided to use LSTM (a type of RNN) to anayze the pattern in which stock is regulating and predict future stock prices. Time series prediction
 
-## Micrsoft Corporation Stock Price Prediction
+## Dataset
+* Dataset from https://www.macrotrends.net/stocks/charts/MSFT/microsoft/stock-price-history
+* Training Samples:- 8018
+* Test Samples:- 277
 
-#### Root Mean Squared Error
+## Results
 
   - RSME(Cross-Validation) = 3.9040832192956225
   - RSME(Test Dataset) = 14.1720933390713
-
-#### Datasets
-  
-  - Dataset from https://www.macrotrends.net/stocks/charts/MSFT/microsoft/stock-price-history
-  - Training Samples:- 8018
-  - Test Samples:- 277
 
 #### How to run the program?
   
