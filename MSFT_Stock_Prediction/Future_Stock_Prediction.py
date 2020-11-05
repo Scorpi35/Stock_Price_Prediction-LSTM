@@ -6,6 +6,7 @@ from copy import deepcopy
 import matplotlib.pyplot as plt
 import datetime
 from datetime import date
+from keras.models import load_model
 
 # Extracting and Normalizing data
 dataset_train = pd.read_csv('Datasets/Train_Data.csv')
@@ -53,9 +54,8 @@ for i in range(Initial_Index, Initial_Index + total_days):
     X_test1 = deepcopy(np.array(X_test))
     X_test1 = np.reshape(X_test1, (X_test1.shape[0], X_test1.shape[1], 1))
 
-    # Opening the trained model
-    open_name = "Trained_Model/Predict_Open_Model.sav"
-    open_model = pickle.load(open(open_name, "rb"))
+    # Loading the trained model
+    open_model = load_model("Trained_Model/Trained_Model.h5")
 
     # Predicting stock prices
     predicted_value = open_model.predict(X_test1)

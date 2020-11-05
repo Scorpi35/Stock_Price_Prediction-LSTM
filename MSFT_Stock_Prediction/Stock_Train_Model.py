@@ -9,7 +9,7 @@ from keras.layers import Dropout
 import pickle
 
 # Making pandas data frame for Stock_Data.csv
-dataset_train = pd.read_csv('Train_Data.csv')
+dataset_train = pd.read_csv('Datasets/Train_Data.csv')
 training_set = dataset_train.iloc[:, 1:2].values
 
 sc = MinMaxScaler(feature_range=(0, 1))
@@ -47,14 +47,15 @@ regressor.add(Dropout(0.2))
 
 regressor.add(Dense(units=1))
 
-regressor.compile(optimizer='adam', loss='mean_squared_error')
+regressor.compile(optimizer='adam', loss='mean_squared_error', metrics=['accuracy'])
 
 # Training LSTM model and finding best fit curve
-regressor.fit(X_train, y_train, epochs=150, batch_size=32)
+regressor.fit(X_train, y_train, validation_split=0.33, epochs=150, batch_size=32, verbose=1)
+
+regressor.save("predict_open_model.h5")
 
 # Saving LSTM model
-filename = 'Trained_Model/Predict_Open_Model.sav'
+filename = 'Trained_Model/Predict_Open_Model1.sav'
 pickle.dump(regressor, open(filename, "wb"))
-
 
 
