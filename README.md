@@ -1,4 +1,4 @@
-# StockPrice-LSTM
+# StockPrice with LSTM
 
 ## Project Description
 Predicting stock price demands lots of input features. Instead of determing every possible input feature, we can analyze the pattern in which stock price is moving and predict the price. Addressing this very problem, we decided to use LSTM (a type of RNN) to anayze the pattern in which stock is regulating and predict future stock prices. Conclusively,it's a time series prediction.
