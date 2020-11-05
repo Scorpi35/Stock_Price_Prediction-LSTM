@@ -3,10 +3,11 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 import pickle
+from keras.models import load_model
 
 # Opening LSTM model
-open_name = "Trained_Model/Predict_Open_Model.sav"
-regressor = pickle.load(open(open_name, "rb"))
+open_name = "Trained_Model/Trained_Model.h5"
+regressor = load_model(open_name)
 
 # Making MinMaxScaler from training dataset
 dataset_train = pd.read_csv('Datasets/Train_Data.csv')
