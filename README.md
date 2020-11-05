@@ -1,4 +1,4 @@
-# StockPrice-LSTM
+# StockPrice with LSTM
 
 ## Project Description
 Predicting stock price demands lots of input features. Instead of determing every possible input feature, we can analyze the pattern in which stock price is moving and predict the price. Addressing this very problem, we decided to use LSTM (a type of RNN) to anayze the pattern in which stock is regulating and predict future stock prices. Conclusively,it's a time series prediction.
@@ -27,8 +27,8 @@ Predicting stock price demands lots of input features. Instead of determing ever
 
 ## Results
 
-  - RSME(Cross-Validation) = 3.9040832192956225
-  - RSME(Test Dataset) = 14.1720933390713
+  - Accuracy (Cross-Validation):- 0.45 
+  - Accuaracy (Tes):- 0.40
 
 ## Screenshots
 
@@ -47,7 +47,7 @@ https://github.com/Scorpi35/StockPrice-LSTM/blob/master/Screenshots/Cross-Valida
 
 
 ## How to run the program?
-* Open Future_Stock_Prediction.py and run the file.
+* Run **python Prediction.py**
 * Enter date upto which stock prices have to be predicted.
 
 
