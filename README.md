@@ -47,6 +47,11 @@ https://github.com/Scorpi35/StockPrice-LSTM/blob/master/Screenshots/Cross-Valida
 
 
 ## How to run the program?
+
+#### Installing required dependencies
+* Run **pip install -r requirements.txt**
+
+#### Running the program
 * Run **python Prediction.py**
 * Enter date upto which stock prices have to be predicted.
 
