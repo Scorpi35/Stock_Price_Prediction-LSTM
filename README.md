@@ -27,8 +27,8 @@ Predicting stock price demands lots of input features. Instead of determing ever
 
 ## Results
 
-  - RSME(Cross-Validation) = 3.9040832192956225
-  - RSME(Test Dataset) = 14.1720933390713
+  - Accuracy (Cross-Validation):- 0.45 
+  - Accuaracy (Tes):- 0.40
 
 ## Screenshots
 
