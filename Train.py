@@ -52,10 +52,7 @@ regressor.compile(optimizer='adam', loss='mean_squared_error', metrics=['accurac
 # Training LSTM model and finding best fit curve
 regressor.fit(X_train, y_train, validation_split=0.33, epochs=150, batch_size=32, verbose=1)
 
-regressor.save("predict_open_model.h5")
+regressor.save("Trained_Model/predict_open_model.h5")
 
-# Saving LSTM model
-filename = 'Trained_Model/Predict_Open_Model1.sav'
-pickle.dump(regressor, open(filename, "wb"))
 
 
